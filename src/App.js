@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="https://asitsi.github.io/api/" exact component={Home} />
+        <Route path="/api/" exact component={Home} />
         <Route exact path="/api/:gamename" component={Phaltu} />
         <Route exact path="/api/:gamename/:leageName" component={Leagename} />
         <Route
